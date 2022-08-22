@@ -16,11 +16,11 @@
 		CA6D8C8228B29068001675DC /* PagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6D8C8128B29068001675DC /* PagesViewController.swift */; };
 		CAA21DD628AFFE1900BB9C8B /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA21DD528AFFE1900BB9C8B /* TimerViewController.swift */; };
 		CAA21DD828B0007100BB9C8B /* SinglePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA21DD728B0007100BB9C8B /* SinglePageViewController.swift */; };
-		CAA21DDB28B00ABF00BB9C8B /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAA21DD928B00ABF00BB9C8B /* Inter-SemiBold.otf */; };
-		CAA21DDC28B00ABF00BB9C8B /* Inter-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAA21DDA28B00ABF00BB9C8B /* Inter-Regular.otf */; };
 		CAA21DDE28B00AD900BB9C8B /* Inter-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAA21DDD28B00AD900BB9C8B /* Inter-Bold.otf */; };
 		CAA21DE228B2449700BB9C8B /* TimerScreenState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA21DE128B2449700BB9C8B /* TimerScreenState.swift */; };
 		CAA21DE428B26F7D00BB9C8B /* TimerScreenStateCoreDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA21DE328B26F7C00BB9C8B /* TimerScreenStateCoreDataProvider.swift */; };
+		CAAB493A28B3C31300917BDD /* Inter-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAAB493828B3C31300917BDD /* Inter-Regular.otf */; };
+		CAAB493B28B3C31300917BDD /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAAB493928B3C31300917BDD /* Inter-SemiBold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,11 +35,11 @@
 		CA6D8C8128B29068001675DC /* PagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesViewController.swift; sourceTree = "<group>"; };
 		CAA21DD528AFFE1900BB9C8B /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		CAA21DD728B0007100BB9C8B /* SinglePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePageViewController.swift; sourceTree = "<group>"; };
-		CAA21DD928B00ABF00BB9C8B /* Inter-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-SemiBold.otf"; path = "../../../../../../Downloads/inter-cufonfonts/Inter-SemiBold.otf"; sourceTree = "<group>"; };
-		CAA21DDA28B00ABF00BB9C8B /* Inter-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Regular.otf"; path = "../../../../../../Downloads/inter-cufonfonts/Inter-Regular.otf"; sourceTree = "<group>"; };
 		CAA21DDD28B00AD900BB9C8B /* Inter-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.otf"; sourceTree = "<group>"; };
 		CAA21DE128B2449700BB9C8B /* TimerScreenState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerScreenState.swift; sourceTree = "<group>"; };
 		CAA21DE328B26F7C00BB9C8B /* TimerScreenStateCoreDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerScreenStateCoreDataProvider.swift; sourceTree = "<group>"; };
+		CAAB493828B3C31300917BDD /* Inter-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.otf"; sourceTree = "<group>"; };
+		CAAB493928B3C31300917BDD /* Inter-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +100,9 @@
 		CAA21DD228AFFCEF00BB9C8B /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				CAAB493828B3C31300917BDD /* Inter-Regular.otf */,
+				CAAB493928B3C31300917BDD /* Inter-SemiBold.otf */,
 				CAA21DDD28B00AD900BB9C8B /* Inter-Bold.otf */,
-				CAA21DDA28B00ABF00BB9C8B /* Inter-Regular.otf */,
-				CAA21DD928B00ABF00BB9C8B /* Inter-SemiBold.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -165,10 +165,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAA21DDC28B00ABF00BB9C8B /* Inter-Regular.otf in Resources */,
 				CAA21DDE28B00AD900BB9C8B /* Inter-Bold.otf in Resources */,
+				CAAB493A28B3C31300917BDD /* Inter-Regular.otf in Resources */,
 				CA52997628AFE2AE00E210AA /* Assets.xcassets in Resources */,
-				CAA21DDB28B00ABF00BB9C8B /* Inter-SemiBold.otf in Resources */,
+				CAAB493B28B3C31300917BDD /* Inter-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
