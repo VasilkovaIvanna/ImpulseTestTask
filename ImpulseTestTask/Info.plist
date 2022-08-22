@@ -15,11 +15,17 @@
 					<string>Default Configuration</string>
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
-					<key>UISceneStoryboardFile</key>
-					<string>Main</string>
+					<key></key>
+					<string></string>
 				</dict>
 			</array>
 		</dict>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Inter-Bold.otf</string>
+		<string>Inter-SemiBold.otf</string>
+		<string>Inter-Regular.otf</string>
+	</array>
 </dict>
 </plist>

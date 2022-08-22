@@ -7,25 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA3B7F0D28B3A4910006DEB8 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3B7F0C28B3A4910006DEB8 /* UIKitExtensions.swift */; };
 		CA52996A28AFE2AC00E210AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA52996928AFE2AC00E210AA /* AppDelegate.swift */; };
 		CA52996C28AFE2AC00E210AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA52996B28AFE2AC00E210AA /* SceneDelegate.swift */; };
-		CA52996E28AFE2AC00E210AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA52996D28AFE2AC00E210AA /* ViewController.swift */; };
-		CA52997128AFE2AC00E210AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA52996F28AFE2AC00E210AA /* Main.storyboard */; };
+		CA52996E28AFE2AC00E210AA /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA52996D28AFE2AC00E210AA /* InitialViewController.swift */; };
 		CA52997428AFE2AC00E210AA /* ImpulseTestTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA52997228AFE2AC00E210AA /* ImpulseTestTask.xcdatamodeld */; };
 		CA52997628AFE2AE00E210AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA52997528AFE2AE00E210AA /* Assets.xcassets */; };
-		CA52997928AFE2AE00E210AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA52997728AFE2AE00E210AA /* LaunchScreen.storyboard */; };
+		CA6D8C8228B29068001675DC /* PagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6D8C8128B29068001675DC /* PagesViewController.swift */; };
+		CAA21DD628AFFE1900BB9C8B /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA21DD528AFFE1900BB9C8B /* TimerViewController.swift */; };
+		CAA21DD828B0007100BB9C8B /* SinglePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA21DD728B0007100BB9C8B /* SinglePageViewController.swift */; };
+		CAA21DDB28B00ABF00BB9C8B /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAA21DD928B00ABF00BB9C8B /* Inter-SemiBold.otf */; };
+		CAA21DDC28B00ABF00BB9C8B /* Inter-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAA21DDA28B00ABF00BB9C8B /* Inter-Regular.otf */; };
+		CAA21DDE28B00AD900BB9C8B /* Inter-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAA21DDD28B00AD900BB9C8B /* Inter-Bold.otf */; };
+		CAA21DE228B2449700BB9C8B /* TimerScreenState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA21DE128B2449700BB9C8B /* TimerScreenState.swift */; };
+		CAA21DE428B26F7D00BB9C8B /* TimerScreenStateCoreDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA21DE328B26F7C00BB9C8B /* TimerScreenStateCoreDataProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA3B7F0C28B3A4910006DEB8 /* UIKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
 		CA52996628AFE2AC00E210AA /* ImpulseTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImpulseTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA52996928AFE2AC00E210AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA52996B28AFE2AC00E210AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CA52996D28AFE2AC00E210AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CA52997028AFE2AC00E210AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA52996D28AFE2AC00E210AA /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		CA52997328AFE2AC00E210AA /* ImpulseTestTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImpulseTestTask.xcdatamodel; sourceTree = "<group>"; };
 		CA52997528AFE2AE00E210AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CA52997828AFE2AE00E210AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA52997A28AFE2AE00E210AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6D8C8128B29068001675DC /* PagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesViewController.swift; sourceTree = "<group>"; };
+		CAA21DD528AFFE1900BB9C8B /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		CAA21DD728B0007100BB9C8B /* SinglePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePageViewController.swift; sourceTree = "<group>"; };
+		CAA21DD928B00ABF00BB9C8B /* Inter-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-SemiBold.otf"; path = "../../../../../../Downloads/inter-cufonfonts/Inter-SemiBold.otf"; sourceTree = "<group>"; };
+		CAA21DDA28B00ABF00BB9C8B /* Inter-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Inter-Regular.otf"; path = "../../../../../../Downloads/inter-cufonfonts/Inter-Regular.otf"; sourceTree = "<group>"; };
+		CAA21DDD28B00AD900BB9C8B /* Inter-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.otf"; sourceTree = "<group>"; };
+		CAA21DE128B2449700BB9C8B /* TimerScreenState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerScreenState.swift; sourceTree = "<group>"; };
+		CAA21DE328B26F7C00BB9C8B /* TimerScreenStateCoreDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerScreenStateCoreDataProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +53,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA3B7F1028B3AC120006DEB8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CA3B7F0C28B3A4910006DEB8 /* UIKitExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		CA52995D28AFE2AC00E210AA = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +80,31 @@
 		CA52996828AFE2AC00E210AA /* ImpulseTestTask */ = {
 			isa = PBXGroup;
 			children = (
+				CA3B7F1028B3AC120006DEB8 /* Extensions */,
+				CAA21DD228AFFCEF00BB9C8B /* Fonts */,
 				CA52996928AFE2AC00E210AA /* AppDelegate.swift */,
 				CA52996B28AFE2AC00E210AA /* SceneDelegate.swift */,
-				CA52996D28AFE2AC00E210AA /* ViewController.swift */,
-				CA52996F28AFE2AC00E210AA /* Main.storyboard */,
+				CA52996D28AFE2AC00E210AA /* InitialViewController.swift */,
+				CAA21DD728B0007100BB9C8B /* SinglePageViewController.swift */,
+				CA6D8C8128B29068001675DC /* PagesViewController.swift */,
+				CAA21DD528AFFE1900BB9C8B /* TimerViewController.swift */,
+				CAA21DE128B2449700BB9C8B /* TimerScreenState.swift */,
+				CAA21DE328B26F7C00BB9C8B /* TimerScreenStateCoreDataProvider.swift */,
 				CA52997528AFE2AE00E210AA /* Assets.xcassets */,
-				CA52997728AFE2AE00E210AA /* LaunchScreen.storyboard */,
 				CA52997A28AFE2AE00E210AA /* Info.plist */,
 				CA52997228AFE2AC00E210AA /* ImpulseTestTask.xcdatamodeld */,
 			);
 			path = ImpulseTestTask;
+			sourceTree = "<group>";
+		};
+		CAA21DD228AFFCEF00BB9C8B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CAA21DDD28B00AD900BB9C8B /* Inter-Bold.otf */,
+				CAA21DDA28B00ABF00BB9C8B /* Inter-Regular.otf */,
+				CAA21DD928B00ABF00BB9C8B /* Inter-SemiBold.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +165,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA52997928AFE2AE00E210AA /* LaunchScreen.storyboard in Resources */,
+				CAA21DDC28B00ABF00BB9C8B /* Inter-Regular.otf in Resources */,
+				CAA21DDE28B00AD900BB9C8B /* Inter-Bold.otf in Resources */,
 				CA52997628AFE2AE00E210AA /* Assets.xcassets in Resources */,
-				CA52997128AFE2AC00E210AA /* Main.storyboard in Resources */,
+				CAA21DDB28B00ABF00BB9C8B /* Inter-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,33 +179,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA52996E28AFE2AC00E210AA /* ViewController.swift in Sources */,
+				CA52996E28AFE2AC00E210AA /* InitialViewController.swift in Sources */,
+				CAA21DE428B26F7D00BB9C8B /* TimerScreenStateCoreDataProvider.swift in Sources */,
+				CAA21DE228B2449700BB9C8B /* TimerScreenState.swift in Sources */,
+				CA6D8C8228B29068001675DC /* PagesViewController.swift in Sources */,
+				CA3B7F0D28B3A4910006DEB8 /* UIKitExtensions.swift in Sources */,
 				CA52996A28AFE2AC00E210AA /* AppDelegate.swift in Sources */,
+				CAA21DD628AFFE1900BB9C8B /* TimerViewController.swift in Sources */,
+				CAA21DD828B0007100BB9C8B /* SinglePageViewController.swift in Sources */,
 				CA52997428AFE2AC00E210AA /* ImpulseTestTask.xcdatamodeld in Sources */,
 				CA52996C28AFE2AC00E210AA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		CA52996F28AFE2AC00E210AA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA52997028AFE2AC00E210AA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CA52997728AFE2AE00E210AA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA52997828AFE2AE00E210AA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CA52997B28AFE2AE00E210AA /* Debug */ = {
@@ -293,11 +318,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ImpulseTestTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,11 +345,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ImpulseTestTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
